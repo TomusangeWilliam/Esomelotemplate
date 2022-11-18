@@ -5,13 +5,13 @@ function HeroBanner() {
     <section id="home">
       <div className="container">
         <div className="home-text">
-          <div className="section-text__subtitle">App landing page</div>
+          <div className="section-text__subtitle">Simplified School Management</div>
           <div className="section-text__title-big">
-            Get things done with Anapp
+            Get things done with Esomelo App
           </div>
           <div className="section-text__body">
-            Dorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusm
-            tempor incididunt ulabore et dolore magna aliqua.
+          Automate school administration, Generate insightful reports, 
+          Make better & faster decisions all in a centralized Web-based platform & Mobile App.
           </div>
           <a href="#download" className="download-btn">
             Download App

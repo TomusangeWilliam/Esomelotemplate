@@ -12,9 +12,9 @@ function Pricing() {
         <div className="pricing-cards">
           <div className="pricing-card">
             <div className="pricing-card__header">
-              <span className="pricing-card__subtitle">2 years</span>
+              <span className="pricing-card__subtitle">1 year</span>
               <div className="pricing-card__title">
-                $20<span> / month</span>
+                UGx200,000<span> /Year</span>
               </div>
             </div>
             <ul className="pricing-card__features">
