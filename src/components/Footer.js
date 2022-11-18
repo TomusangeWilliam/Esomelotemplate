@@ -7,10 +7,10 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-30">
-            <div className="footer-text__title">Anapp</div>
+            <div className="footer-text__title">ESOMELO</div>
             <div className="footer-text__body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do
-              eiusmod tempor incididunt ut labore.
+            Esomelo is a web-based School Management Platform that integrates all elements to 
+            manage a school efficiently.
             </div>
           </div>
           <div className="col-30">
@@ -44,7 +44,7 @@ function Footer() {
           </div>
         </div>
         <div className="copyright">
-          Inspired by Colorlib, coded by pathetic geek.
+        © 2022 Esomelo All Rights Reserved .
         </div>
       </div>
     </footer>

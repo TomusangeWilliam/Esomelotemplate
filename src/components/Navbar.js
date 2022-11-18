@@ -14,8 +14,12 @@ function Navbar({ links }) {
         menuOpen ? " nav-open" : ""
       }`}>
       <div className="nav-content">
-        <div className="nav-logo">Anapp</div>
+        <div>
 
+          
+        </div>
+        <div className="nav-logo">Esomelo</div>
+        
         <nav className="nav-links__container">
           {links &&
             links.map((link, i) => (
@@ -41,7 +45,8 @@ Navbar.defaultProps = {
     { title: "Features", href: "#features" },
     { title: "Services", href: "#services" },
     { title: "Pricing", href: "#pricing" },
-    { title: "Contact", href: "#contact" }
+    { title: "Blog", href: "#blog" },
+    { title: "Login", href: "#Login" }
   ]
 };
 
