@@ -18,10 +18,17 @@ function Pricing() {
               </div>
             </div>
             <ul className="pricing-card__features">
-              <li>Increase traffic 50%</li>
-              <li>E-mail support</li>
-              <li>10 Free Optimization</li>
-              <li>24/7 support</li>
+              <li>Report generation</li>
+              <li>Staff  management</li>
+              <li>Student management</li>
+              <li>Class and Timetable management</li>
+              <li>GPS Bus/van tracking</li>
+              <li>medical Reports </li>
+              <li>staff payroll management & Reports</li>
+              <li>Attendance management & Reports</li>
+              <li>School Fee management & Reports</li>
+              <li>Library management & Reports</li>
+              <li>Free Website </li>
             </ul>
             <a href="#pricing" className="pricing-card__btn">
               Get started
@@ -30,16 +37,25 @@ function Pricing() {
 
           <div className="pricing-card">
             <div className="pricing-card__header">
-              <span className="pricing-card__subtitle">3 years</span>
+              <span className="pricing-card__subtitle">1 years</span>
               <div className="pricing-card__title">
-                $18<span> / month</span>
+                UGx 1.2 million<span> / year</span>
               </div>
             </div>
             <ul className="pricing-card__features">
-              <li>Increase traffic 50%</li>
-              <li>E-mail support</li>
-              <li>10 Free Optimization</li>
-              <li>24/7 support</li>
+            <li>Report generation</li>
+              <li>Staff  management</li>
+              <li>Student management</li>
+              <li>Class and Timetable management</li>
+              <li>GPS Bus/van tracking</li>
+              <li>medical Reports </li>
+              <li>staff payroll management & Reports</li>
+              <li>Attendance management & Reports</li>
+              <li>School Fee management & Reports</li>
+              <li>Library management & Reports</li>
+              <li>Free Website </li>
+              <li>Live classes </li>
+              <li>Customize mobile app</li>
             </ul>
             <a href="#pricing" className="pricing-card__btn">
               Get started
@@ -48,16 +64,23 @@ function Pricing() {
 
           <div className="pricing-card">
             <div className="pricing-card__header">
-              <span className="pricing-card__subtitle">4 years</span>
+              <span className="pricing-card__subtitle">Every Academic Term</span>
               <div className="pricing-card__title">
-                $14<span> / month</span>
+                Ugx 120,000<span> /each term</span>
               </div>
             </div>
             <ul className="pricing-card__features">
-              <li>Increase traffic 50%</li>
-              <li>E-mail support</li>
-              <li>10 Free Optimization</li>
-              <li>24/7 support</li>
+            <li>Report generation</li>
+              <li>Staff  management</li>
+              <li>Student management</li>
+              <li>Class and Timetable management</li>
+              <li>GPS Bus/van tracking</li>
+              <li>medical Reports </li>
+              <li>staff payroll management & Reports</li>
+              <li>Attendance management & Reports</li>
+              <li>School Fee management & Reports</li>
+              <li>Library management & Reports</li>
+              <li>Free Website </li>
             </ul>
             <a href="#pricing" className="pricing-card__btn">
               Get started

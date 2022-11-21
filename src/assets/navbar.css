@@ -96,16 +96,32 @@
   transform: rotate(-45deg);
 }
 
+#logoimg{
+  padding:5px;
+  }
+
+
 @media screen and (max-width: 700px) {
   .nav-open {
     height: 100vh;
     position: fixed;
     background-color: rgba(255, 255, 255, 0.95);
+    width: 200px;
     animation: nav-open 0.2s ease-in-out;
   }
   .nav-open .nav-content {
-    height: 70px;
-    margin-top: 0px;
+    height: 10px;
+    margin-top: 20px;
+  }
+
+  .nav-logo {
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: right;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #26306a;
   }
   .nav-links__container {
     position: absolute;

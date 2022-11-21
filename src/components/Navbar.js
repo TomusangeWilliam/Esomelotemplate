@@ -14,10 +14,12 @@ function Navbar({ links }) {
         menuOpen ? " nav-open" : ""
       }`}>
       <div className="nav-content">
-        <div>
-
+       
+        
+          <img src="./images/esomelologo.png" id="logoimg" alt="download" />
+       
           
-        </div>
+        
         <div className="nav-logo">Esomelo</div>
         
         <nav className="nav-links__container">
