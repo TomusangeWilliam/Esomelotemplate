@@ -66,6 +66,18 @@ section > .container > * {
   margin-bottom: 40px;
   color: #26306a;
 }
+
+.section-text__title_text-white{
+  max-width: 700px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  color: #ffffff;
+
+}
 .section-text__title-big {
   font-size: 2.5rem;
   font-weight: 700;
@@ -81,6 +93,8 @@ section > .container > * {
   margin-bottom: 8px;
   color: #23182c;
 }
+
+
 .section-text__subtitle {
   color: #26306a;
   font-size: 1rem;
@@ -173,16 +187,48 @@ section > .container > * {
   .service-cards {
     flex-direction: column;
   }
+
+  .section-text__title-centered {
+    max-width: 300px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #26306a;
+  }
+  .section-text__title_text-white{
+    text-align: center;
+    margin: 0px auto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+  }
+  .section-text__title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    color: #26306a;
+    max-width: 400px;
+  }
 }
 
 .download-btn {
   background-color: #f9218d;
+  border-radius: 999px;
+  box-shadow: #f9218d 0 10px 20px -10px;
+
   text-decoration: none;
   color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 1.1rem;
-  font-weight: 300;
+  font-weight: 500;
   padding: 16px 40px;
   border-radius: 30px;
   cursor: pointer;
@@ -206,6 +252,25 @@ section > .container > * {
     right: 0;
     left: 0;
   }
+
+.download-btn {
+  background-color: #f9218d;
+  border-radius: 999px;
+  box-shadow: #f9218d 0 10px 20px -10px;
+
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 16px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  margin: 0;
+}
+
 }
 
 section#pricing {
@@ -228,7 +293,8 @@ section#pricing {
   background-position: center;
 }
 .pricing-lower {
-  height: 70vh;
+  height: 10
+  0vh;
   margin-top: -20vh;
   padding: 0px 24px;
 }
@@ -298,6 +364,7 @@ section#pricing {
   color: #717081;
   font-weight: 300;
   font-size: 1.1rem;
+  
 }
 
 .pricing-card__btn {
@@ -325,9 +392,19 @@ section#pricing {
   .pricing-cards {
     flex-direction: column;
   }
+  .pricing-card__btn{
+    text-align: center;
+  }
+  .pricing-card__header{
+    text-align: center;
+  }
   .pricing-card {
     width: calc(100% - 12px);
-    margin: 12px auto;
+    margin: 7px -18px;
+    background-color:#fafafa;
+    border-style:ridge;
+    border-color: #712fda;
+    text-align: left;
   }
 }
 
@@ -369,6 +446,8 @@ section#download .section-image {
     height: auto;
   }
 }
+
+
 
 .text-white {
   color: #fff;
