@@ -110,6 +110,8 @@ section > .container > * {
   max-width: 300px;
 }
 
+
+
 .section-image {
   height: calc(100vh - 130px);
 }
@@ -152,6 +154,7 @@ section > .container > * {
   border: 1px solid transparent;
   margin: 12px 8px;
   transition: 0.1s all ease-in;
+  padding-bottom: 10px;
 }
 .service-card:hover,
 .service-card.active {

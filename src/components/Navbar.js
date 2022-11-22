@@ -16,11 +16,11 @@ function Navbar({ links }) {
       <div className="nav-content">
        
         
-          <img src="./images/esomelologo.png" id="logoimg" alt="download" />
+          <img src="./images/esomelologo.png" id="logoimg"  alt="download" />
        
           
         
-        <div className="nav-logo">Esomelo</div>
+        <div onclick="window.open('newurl.html','mywindow');" className="nav-logo" >ESOMELO</div>
         
         <nav className="nav-links__container">
           {links &&
@@ -33,6 +33,7 @@ function Navbar({ links }) {
         </nav>
 
         <div className="nav-menu__icon" onClick={() => setMenuOpen(!menuOpen)}>
+
           <div />
           <div />
         </div>
