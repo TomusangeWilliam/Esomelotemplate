@@ -9,6 +9,7 @@ import Screenshots from "./components/Screenshots";
 import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
 import Download from "./components/Download";
+import Customers from "./components/Customers";
 
 export default function App() {
   return (
@@ -21,8 +22,10 @@ export default function App() {
         <Screenshots />
         <Pricing />
         <Download />
+        <Customers/>
       </main>
-      <Footer />
+    <Footer />
+      
     </>
   );
 }

@@ -62,10 +62,34 @@ section > .container > * {
   margin: 0px auto;
   font-size: 50px;
   font-weight: 700;
+  line-height: 1;
+  margin-bottom: 30px;
+  color: #26306a;
+}
+
+.section-text__title-esomelo{
+  max-width: 1000px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 25px;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 40px;
   color: #26306a;
 }
+
+.service-card__icon2{
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 5px auto;
+  margin-bottom: 24px;
+  border-radius: 25%;
+  background-color: #fb00ff;
+  transition: 0.1s all ease-in;
+}
+
 
 .section-text__title_text-white{
   max-width: 700px;
@@ -104,7 +128,7 @@ section > .container > * {
 .section-text__body {
   color: #707b8e;
   font-size: 1rem;
-  line-height: 30px;
+  line-height: 20px;
   margin-bottom: 15px;
   font-weight: 400;
   max-width: 300px;
@@ -133,6 +157,7 @@ section > .container > * {
     display: none;
   }
 }
+
 
 .feature-box {
   margin-bottom: 32px;
@@ -212,7 +237,7 @@ section > .container > * {
 
   }
   .section-text__title {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 40px;
@@ -363,7 +388,7 @@ section#pricing {
   padding: 0px;
 }
 .pricing-card__features > li {
-  margin: 8px 0px;
+  margin: 7px 0px;
   color: #717081;
   font-weight: 300;
   font-size: 1.1rem;
@@ -469,3 +494,5 @@ section#download .section-image {
   width: 30%;
   padding: 0px 14px;
 }
+
+

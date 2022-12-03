@@ -27,6 +27,9 @@ function Footer() {
               <li>
                 <a href="#download">Download</a>
               </li>
+              <li>
+              <a href="#pricing2">Terms of service</a>
+              </li>
             </ul>
           </div>
           <div className="col-30">
