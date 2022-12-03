@@ -11,13 +11,14 @@ function Services() {
         <div className="service-cards">
           <div className="service-card">
             <div className="service-card__icon">
-              <ion-icon name="reader-outline" />
+            <ion-icon name="briefcase"></ion-icon>
             </div>
             <div className="service-card__text-container">
               <div className="section-text__title-small">Easily Manage</div>
               <div className="section-text__body">
-                Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod
-                tempor incididunt ut laborea.
+              A no-code, fully configurable environment for digitalizing academic processes such as registrations, 
+              record management, curriculum development, attendance tracking, 
+              grading reports, billing, and online payments, just to name a few.
               </div>
             </div>
           </div>
@@ -31,8 +32,8 @@ function Services() {
                 Get Payments Easily
               </div>
               <div className="section-text__body">
-                Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod
-                tempor incididunt ut laborea.
+              Sync your financial management with the rest of your educational organization. 
+              An integrated billing solution that allows you to have a complete overview of your organization’s financial activity.
               </div>
             </div>
           </div>
@@ -42,10 +43,9 @@ function Services() {
               <ion-icon name="chatbubble-ellipses-outline" />
             </div>
             <div className="service-card__text-container">
-              <div className="section-text__title-small">Quick Messaging</div>
+              <div className="section-text__title-small">Quick Data sharing</div>
               <div className="section-text__body">
-                Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod
-                tempor incididunt ut laborea.
+                Esomelo make it easy from adminstrators teacher and parents to share student and pupils statics .
               </div>
             </div>
           </div>
