@@ -9,6 +9,19 @@
   overflow: hidden;
   z-index: 1000;
 }
+
+.nav-link__text{
+  visibility: visible;
+}
+
+.nav-link:hover{
+  visibility: visible;
+}
+
+.nav-link{
+  visibility:hidden
+}
+
 .nav-stickey {
   animation: nav-enter-anim 0.15s ease-in;
   background-color: #fff;
@@ -40,6 +53,7 @@
 .nav-links__container {
   display: flex;
   margin-left: auto;
+ 
 }
 .nav-link {
   height: 100%;
@@ -55,13 +69,13 @@
   color: #450b78;
   font-size: 1.2rem;
   font-weight: 300;
-  font-display: bold;
+  
 }
 .nav-link__background {
   margin-top: -2px;
   height: 2px;
   width: 0%;
-  background: #a60dcf;
+  background: #410352;
   transition: 0.2s all ease-in;
 }
 .nav-link:hover .nav-link__background {
@@ -93,7 +107,7 @@
   position: absolute;
   top: 30px;
   width: 10%;
-  background-color: #ff0000;
+  background-color: #000000;
   height: 4px;
 }
 .nav-open .nav-menu__icon div:nth-of-type(2) {
@@ -103,7 +117,7 @@
   position: absolute;
   top: 30px;
   width: 10%;
-  background-color: #ff0000;
+  background-color: #000000;
   height: 4px;
 }
 
@@ -129,6 +143,7 @@
     background-color: rgba(255, 255, 255, 0.95);
     width: 200px;
     animation: nav-open 0.2s ease-in-out;
+ 
   }
   .nav-open .nav-content {
     margin-top: 10px;
@@ -137,9 +152,19 @@
 .menu__icon{
   position: relative;
   display: flex;
+  
 }
 
+.nav-link{
+display: flex;
+flex-direction: row;
+  visibility:visible
+}
  
+.nav-link__text{
+  visibility: visible;
+}
+
   #logoimg{
    padding:1px;
     height: 30px;
@@ -165,6 +190,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    
   }
   .nav-link {
     height: 60px;
@@ -173,6 +199,9 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+ 
+
   .nav-menu__icon {
     display: flex;
     flex-direction: column;

@@ -8,6 +8,8 @@ function Customers() {
         <div className="section-text__title-esomelo">
         HOW ESOMELO HELPS EDUCATIONAL ORGANIZATIONS MANAGE ACADEMIC PROCESSES
         </div>
+
+        
         <div className="service-cards">
           <div className="service-card">
             <div className="service-card__icon2">
@@ -48,3 +50,9 @@ function Customers() {
 
 
 export default Customers;
+
+
+
+
+
+
